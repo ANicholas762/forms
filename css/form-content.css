@@ -1,0 +1,115 @@
+.form-content {
+  width: 1280px;
+  height: 600px;
+  margin: 0 auto;
+  position: relative;
+}
+.form-content .ttl {
+  position: absolute;
+  top: 60px;
+}
+.form-content .ttl h1 {
+  color: darkgray;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: lighter;
+  font-size: 40px;
+}
+.form-content .ttl .brdr {
+  position: absolute;
+  border-bottom: 4px solid darkgray;
+  top: 50px;
+  width: 90%;
+}
+.form-content .fname {
+  position: absolute;
+  top: 140px;
+  left: 260px;
+}
+.form-content .fname input {
+  width: 400px;
+  height: 60px;
+  padding: 20px;
+  border-style: solid;
+  border-color: lightgray;
+}
+.form-content .lname {
+  position: absolute;
+  top: 140px;
+  left: 700px;
+}
+.form-content .lname input {
+  width: 400px;
+  height: 60px;
+  padding: 20px;
+  border-style: solid;
+  border-color: lightgray;
+}
+.form-content .email {
+  position: absolute;
+  top: 240px;
+  left: 260px;
+}
+.form-content .email input {
+  position: absolute;
+  width: 400px;
+  height: 60px;
+  padding: 20px;
+  border-style: solid;
+  border-color: lightgray;
+}
+.form-content .email i {
+  position: absolute;
+  left: 180px;
+  top: 10px;
+  color: darkgray;
+}
+.form-content .pnumber {
+  position: absolute;
+  top: 240px;
+  left: 700px;
+}
+.form-content .pnumber input {
+  position: absolute;
+  width: 400px;
+  height: 60px;
+  padding: 20px;
+  border-style: solid;
+  border-color: lightgray;
+}
+.form-content .pnumber i {
+  position: absolute;
+  left: 180px;
+  top: 10px;
+  color: darkgray;
+}
+.form-content .message {
+  position: absolute;
+  top: 340px;
+  left: 260px;
+}
+.form-content .message input {
+  position: absolute;
+  width: 840px;
+  height: 200px;
+  padding: 20px;
+  border-style: solid;
+  border-color: lightgray;
+}
+.form-content .message i {
+  position: absolute;
+  left: 780px;
+  top: 100px;
+  color: darkgray;
+}
+.form-content .btn button {
+  position: absolute;
+  padding: 14px 280px;
+  top: 560px;
+  left: 360px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  font-weight: lighter;
+  color: #000;
+  background-color: darkgray;
+  border: 2px solid darkgray;
+}

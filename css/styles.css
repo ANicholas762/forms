@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  background-color: #09223b;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+@media only all and (max-width: 980px) {
+  nav {
+    padding: 0 30px;
+  }
+}
+nav {
+  width: 1280px;
+  height: 80px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 2px solid white;
+}
+nav a {
+  text-decoration: none;
+  text-transform: lowercase;
+  font-size: 26px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: lighter;
+  color: gray;
+  margin-right: 20px;
+}
+nav .logo {
+  width: 92px;
+  height: 42px;
+  border: solid 2px lightgray;
+  position: relative;
+  margin-left: 800px;
+}
+nav .logo p {
+  position: absolute;
+  font-size: 24px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: lighter;
+  margin-left: 48px;
+  top: 16px;
+  color: gray;
+}
+
+.banner {
+  position: relative;
+  width: 1280px;
+  height: 200px;
+  background-image: url(../images/hero4.jpg);
+  margin: 0 auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 20px;
+}
+
+.form-content {
+  width: 1280px;
+  height: 600px;
+  margin: 0 auto;
+  position: relative;
+}
+.form-content .ttl {
+  position: absolute;
+  top: 60px;
+}
+.form-content .ttl h1 {
+  color: darkgray;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: lighter;
+  font-size: 40px;
+}
+.form-content .ttl .brdr {
+  position: absolute;
+  border-bottom: 4px solid darkgray;
+  top: 50px;
+  width: 90%;
+}
+.form-content .fname {
+  position: absolute;
+  top: 140px;
+  left: 260px;
+}
+.form-content .fname input {
+  width: 400px;
+  height: 60px;
+  padding: 20px;
+  border-style: solid;
+  border-color: lightgray;
+}
+.form-content .lname {
+  position: absolute;
+  top: 140px;
+  left: 700px;
+}
+.form-content .lname input {
+  width: 400px;
+  height: 60px;
+  padding: 20px;
+  border-style: solid;
+  border-color: lightgray;
+}
+.form-content .email {
+  position: absolute;
+  top: 240px;
+  left: 260px;
+}
+.form-content .email input {
+  position: absolute;
+  width: 400px;
+  height: 60px;
+  padding: 20px;
+  border-style: solid;
+  border-color: lightgray;
+}
+.form-content .email i {
+  position: absolute;
+  left: 180px;
+  top: 10px;
+  color: darkgray;
+}
+.form-content .pnumber {
+  position: absolute;
+  top: 240px;
+  left: 700px;
+}
+.form-content .pnumber input {
+  position: absolute;
+  width: 400px;
+  height: 60px;
+  padding: 20px;
+  border-style: solid;
+  border-color: lightgray;
+}
+.form-content .pnumber i {
+  position: absolute;
+  left: 180px;
+  top: 10px;
+  color: darkgray;
+}
+.form-content .message {
+  position: absolute;
+  top: 340px;
+  left: 260px;
+}
+.form-content .message input {
+  position: absolute;
+  width: 840px;
+  height: 200px;
+  padding: 20px;
+  border-style: solid;
+  border-color: lightgray;
+}
+.form-content .message i {
+  position: absolute;
+  left: 780px;
+  top: 100px;
+  color: darkgray;
+}
+.form-content .btn button {
+  position: absolute;
+  padding: 14px 280px;
+  top: 560px;
+  left: 360px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  font-weight: lighter;
+  color: #000;
+  background-color: darkgray;
+  border: 2px solid darkgray;
+}
+
+footer {
+  width: 1280px;
+  height: 160px;
+  background-color: darkgray;
+  margin: 0 auto;
+  margin-top: 120px;
+  position: relative;
+}
+footer h3 {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  top: 130px;
+  left: 560px;
+}
